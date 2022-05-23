@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600;700&display=swap');
+
+:root{
+  --colorTextPrimary: #607B96;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #011627;
+  font-family: 'Fira Code', monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header{
+  border-bottom: 1px solid #1E2D3D ;
+}
+
+header .container{
+  margin: 0 auto;
+  /* height: 75px; */
+  max-width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--colorTextPrimary);
+}
+
+header .container .navigation{
+  display: flex;
+  align-items: center;
+  min-width: 660px;
+  justify-content: space-between;
+  /* padding: 1.5rem 0; */
+}
+
+header .container .navigation .title{width: 250px; border: none;padding: 1.5rem 0;}
+header .container .navigation a{ border-left: 1px solid #1E2D3D;border-right: 1px solid #1E2D3D;padding: 1.5rem 2rem;}
+header .container .contact {border-left: 1px solid #1E2D3D;padding: 1.5rem 0 1.5rem  2rem} 
+
+footer{
+  border-top: 1px solid #1E2D3D ;
+}
+
+footer .container{
+  margin: 0 auto;
+  /* height: 75px; */
+  max-width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--colorTextPrimary);
+}
+
+footer .container .socials{display: flex; align-items: center;}
+footer .container .socials .findme { padding: 1rem 1.785rem 1rem 0;}
+footer .container .socials a {padding: 1rem 1rem; border-left: 1px solid #1E2D3D;border-right: 1px solid #1E2D3D; font-size: 20px;color: #607B96;}
+footer .container .github {display: flex; align-items: center;}
+footer .container .github i {font-size: 30px;margin-left: 15px;}
