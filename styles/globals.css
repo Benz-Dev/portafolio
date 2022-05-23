@@ -43,9 +43,11 @@ header .container .navigation{
   /* padding: 1.5rem 0; */
 }
 
-header .container .navigation .title{width: 250px; border: none;padding: 1.5rem 0;}
-header .container .navigation a{ border-left: 1px solid #1E2D3D;border-right: 1px solid #1E2D3D;padding: 1.5rem 2rem;}
-header .container .contact {border-left: 1px solid #1E2D3D;padding: 1.5rem 0 1.5rem  2rem} 
+
+header .container .navigation nav a{ border-left: 1px solid #1E2D3D;border-right: 1px solid #1E2D3D;padding: 1.2rem 2rem;}
+header .container .navigation .title{width: 250px; border: none!important;padding: 1.2rem 0;}
+header .container .contact {border-left: 1px solid #1E2D3D;padding: 1.2rem 0 1.2rem  2rem} 
+header .container .navigation .active{border-bottom:2px solid #FEA55F;}
 
 footer{
   border-top: 1px solid #1E2D3D ;
@@ -63,6 +65,8 @@ footer .container{
 
 footer .container .socials{display: flex; align-items: center;}
 footer .container .socials .findme { padding: 1rem 1.785rem 1rem 0;}
-footer .container .socials a {padding: 1rem 1rem; border-left: 1px solid #1E2D3D;border-right: 1px solid #1E2D3D; font-size: 20px;color: #607B96;}
-footer .container .github {display: flex; align-items: center;}
-footer .container .github i {font-size: 30px;margin-left: 15px;}
+footer .container .socials a {padding: 1rem 1rem; border-left: 1px solid #1E2D3D;border-right: 1px solid #1E2D3D; font-size: 20px;color: #607B96; display: flex;
+  justify-content: center;}
+  footer .container .socials a i {font-size: 28px;}
+footer .container .github {display: flex; align-items: center;border-left: 1px solid #1E2D3D; padding: 1rem 0 1rem 1rem;}
+footer .container .github i {font-size: 28px;margin-left: 15px;}
