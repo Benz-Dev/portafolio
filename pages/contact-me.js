@@ -29,7 +29,7 @@ export default function contact(){
                         <span className={styles.number}>1</span>  <span className={styles.var}>const</span> button <span  className={styles.var}>=</span> document.querySelector<span className={styles.caracter}>(</span><span className={styles.content}>&#39;#sendBtn&#39;</span><span className={styles.caracter}>);</span><br></br>
                         <span className={styles.number}>2</span><br></br>
                         <span className={styles.number}>3</span>  <span className={styles.var}>const</span> message <span  className={styles.var}>=</span> <span className={styles.caracter}>{code}</span><br></br>
-                        <span className={styles.number}>4</span>&#8194;&#8194; name: <span className={styles.content}>&quot;{getName()}{" "}&quot;</span><br></br>
+                        <span className={styles.number}>4</span>&#8194;&#8194; name: <span className={styles.content}>&quot;Jose Manuel&quot;</span><br></br>
                         <span className={styles.number}>5</span>&#8194;&#8194; email: <span className={styles.content}>&quot;benzsolutionsweb@gmail.com&quot;</span><br></br>
                         <span className={styles.number}>6</span>&#8194;&#8194; message: <span className={styles.content}>&quot;Hi&quot;</span><br></br>
                         <span className={styles.number}>7</span>&#8194;&#8194; <span className={styles.caracter}>date:</span> <span className={styles.content}>&quot;Thu 24 May&quot;</span><br></br>
