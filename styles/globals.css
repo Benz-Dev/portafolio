@@ -94,6 +94,14 @@ header .container .navigation{
   footer .github i {margin: 0!important;padding: 1rem 0.8rem 1rem 1rem;}
 }
 
+@media (max-width:324px){
+  footer .container .findme{font-size: 15px; padding: .5rem .8rem .5rem 1rem;}
+  footer .container .socials a i {font-size: 20px;}
+  footer .container .github i{font-size: 20px;}
+  footer .github i {padding: .5rem .8rem .5rem 1rem;}
+  footer .container .socials a{padding: 0.5rem;}
+}
+
 header .container .navigation nav a{ border-left: 1px solid #1E2D3D;border-right: 1px solid #1E2D3D;padding: 1.2rem 2rem;z-index: 2500;}
 header .container .navigation .title{width: 250px; border: none!important;padding: 1.2rem 0;z-index: 2500;}
 header .container .contact {border-left: 1px solid #1E2D3D;padding: 1.2rem 1rem 1.2rem  2rem;z-index: 2500;} 
