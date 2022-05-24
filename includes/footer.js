@@ -10,7 +10,7 @@ export default function Footer() {
                     <a><i class="ri-facebook-fill"></i></a>
                 </div>
                 <a className="github" href='https://github.com/Benz-Dev' target="_blank">
-                    @benz-dev <i class="ri-github-fill"></i>
+                   <div>@benz-dev</div>  <i class="ri-github-fill"></i>
                 </a>
             </div>
         </footer>

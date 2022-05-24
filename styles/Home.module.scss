@@ -1,0 +1,107 @@
+.main {
+    @media (max-width:480px){
+      margin: 0 auto;
+      max-width: 90%;
+    }
+    @media (max-width:832px){
+      &::before{
+        content: '';
+        background-image: url('../public/bck_blurs.svg');
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        background-size: contain;
+        z-index: 0;
+        overflow: hidden;
+      }
+    }
+    @media (max-width:500px){
+      &::before{
+        content: '';
+        display: none;
+      }
+    }
+    @media (max-height:544px){
+      &::before{
+        content: '';
+        display: none;
+      }
+    }
+    z-index: 200;
+    min-height: calc(100vh - 121px);
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E9F0;
+    .container{
+        display: flex;
+        align-items: center;
+        z-index: 200;
+    }
+    p {margin: 0}
+    h1 {margin: 0;font-size: 55px;font-weight: 500;}
+    .work{
+      &::before{content: '> ';}
+      @media (max-width:480px){
+        color: #43D9AD!important;
+        font-size: 25px;
+      }
+      color: #4D5BCE;font-size: 30px;margin-bottom: 7rem; 
+  }
+  }
+
+.code{font-size: 17px;
+    .var {color: #4D5BCE;}
+    .content_var{color: #43D9AD;}
+    a{color: #E99287;}
+}
+
+.comment{color: #607B96;margin-bottom: 10px;&::before{content: '// ';}}
+  .game{
+    margin-left: 9rem;
+    @media (max-width: 1360px){
+        margin-left: 7rem;
+    }
+    @media (max-width: 1225px){
+        display: none;
+    }
+    @media (max-height: 870px){
+        display: none;
+    }
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 555;
+    .snisp{
+        margin: 20px;
+      }
+      &::before{
+        content: '';
+        z-index: -1;
+        background-image: url('../public/Green.svg');
+        background-size: contain;
+        width: 450px;
+        height: 450px;
+        top: 0;
+        position: absolute;
+        background-repeat: no-repeat;
+        transform: scale(2);
+      }
+      &::after{
+        content: '';
+        z-index: -1;
+        background-image: url('../public/Blue.svg');
+        background-size: contain;
+        width: 500px;
+        bottom: -120px;
+        height: 500px;
+        position: absolute;
+        background-repeat: no-repeat;
+        transform: scale(2);
+      }
+  }
+
+  
+  .snip1{opacity: 0.4;}
+  .snip3{opacity: 0.4;}

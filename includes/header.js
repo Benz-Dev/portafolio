@@ -17,12 +17,15 @@ export default function Header(){
                     <ActiveLink activeClassName="active" href="/about">
                         <a>_about-me</a>
                     </ActiveLink>
-                    <Link href="/projects" className={router.pathname.startsWith == "/projects" ? "active" : ""}>_projects</Link>
+                    <ActiveLink activeClassName="active" href="/projects">
+                        <a>_projects</a>
+                    </ActiveLink>
                 </nav>
             </div>
             <div className='contact'>
                 <Link href="/contact-me" className={router.pathname.startsWith == "/projects" ? "active" : ""}>_contact-me</Link>
             </div>
+            <button className='only_mobile'><i class="ri-menu-line"></i></button>
         </div>
       </header>
     )
