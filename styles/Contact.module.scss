@@ -13,11 +13,12 @@
     min-height: calc(100vh - 121px);
     display: flex;
     .form{
+        padding-bottom: 1rem;
         min-height: calc(100vh - 121px);
         width: 50%;
         margin: 0 auto;
         border-right: 1px solid #1E2D3D;
-        @media (max-width: 1094px){border: none;overflow-y: scroll;width: 100%;}
+        @media (max-width: 1094px){border: none;width: 100%;}
         padding-top: 8rem;
         .container{
             display: flex;
