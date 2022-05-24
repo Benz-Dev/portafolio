@@ -11,19 +11,9 @@ body {
   margin: 0;
   background-color: #011627;
   font-family: 'Fira Code', monospace;
-  overflow: hidden;
 }
 #__next{background-color: #011627;}
-@media (max-width: 1225px){
-  body {
-    overflow: auto!important;
-  }
-}
-@media (max-height: 870px){
-  body {
-    overflow: auto!important;
-  }
-}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -104,8 +94,20 @@ header .container .navigation{
 
 header .container .navigation nav a{ border-left: 1px solid #1E2D3D;border-right: 1px solid #1E2D3D;padding: 1.2rem 2rem;z-index: 2500;}
 header .container .navigation .title{width: 250px; border: none!important;padding: 1.2rem 0;z-index: 2500;}
-header .container .contact {border-left: 1px solid #1E2D3D;padding: 1.2rem 1rem 1.2rem  2rem;z-index: 2500;} 
+header .container .contact {border-left: 1px solid #1E2D3D;z-index: 2500;padding: 1.2rem 1rem 1.2rem  2rem;} 
 header .container .navigation .active{border-bottom:2px solid #FEA55F;z-index: 2500;}
+header .container .contact .active{position: relative;}
+header .container .contact .active::after{
+  content: '';
+  border-bottom: 2px solid #FEA55F;
+  z-index: 2500;
+  height: 2px;
+  width: 155%;
+  position: absolute;
+  bottom: -20px;
+  left: -32px;
+}
+
 
 footer{
   border-top: 1px solid #1E2D3D ;

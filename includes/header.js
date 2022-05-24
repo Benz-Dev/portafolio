@@ -23,9 +23,11 @@ export default function Header(){
                 </nav>
             </div>
             <div className='contact'>
-                <Link href="/contact-me" className={router.pathname.startsWith == "/projects" ? "active" : ""}>_contact-me</Link>
+                <ActiveLink activeClassName="active" href="/contact-me">
+                    <a>_contact-me</a>
+                </ActiveLink>
             </div>
-            <button className='only_mobile'><i class="ri-menu-line"></i></button>
+            <button className='only_mobile'><i className="ri-menu-line"></i></button>
         </div>
       </header>
     )
