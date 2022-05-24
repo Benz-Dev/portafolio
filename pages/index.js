@@ -23,7 +23,11 @@ export default function Home() {
               <div className={styles.github_info}>
                   <div className={styles.comment}>complete the game to continue</div>
                   <div className={styles.comment}>you can also see it my Github page</div>
+<<<<<<< HEAD
                   <code className={styles.code}><span className={styles.var}>const</span> <span className={styles.content_var}>githubLink</span> = <Link href='https://www.github.com/Benz-Dev'>&quot;https://github.com/Benz-Dev&quot;</Link></code>
+=======
+                  <code className={styles.code}><span className={styles.var}>const</span> <span className={styles.content_var}>githubLink</span> = <a href='https://www.github.com/Benz-Dev'>"https://github.com/Benz-Dev"</a></code>
+>>>>>>> 2bb75e3e5383046dbb6fb1647af1611157272405
               </div>
             </div>
             <div className={styles.game}>
