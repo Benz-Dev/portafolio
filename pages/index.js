@@ -3,8 +3,10 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import snipet from '../public/code-snippet.png'
 import Link from 'next/link'
+import Typewriter from 'typewriter-effect';
 
 export default function Home() {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -18,7 +20,13 @@ export default function Home() {
               <div className={styles.info}>
                 <p>Hi all. I am</p>
                 <h1>Jose Manuel</h1>
-                <div className={styles.work}>Full-stack developer</div>
+                {/* <div className={styles.work}>Full-stack developer</div> */}
+                <Typewriter  options={{
+                  strings: ['Full-stack developer', 'Web designer', 'back-end specialist'],
+                  autoStart: true,
+                  wrapperClassName: styles.work,
+                  loop: true
+                }}/>
               </div>
               <div className={styles.github_info}>
                   <div className={styles.comment}>complete the game to continue</div>

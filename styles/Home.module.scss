@@ -48,10 +48,15 @@
         color: #43D9AD!important;
         font-size: 25px;
       }
-      @media (max-height:670px){margin-bottom: 2rem;}
-      color: #4D5BCE;font-size: 30px;margin-bottom: 7rem; 
+      
+      color: #4D5BCE;font-size: 30px;
   }
   }
+
+.github_info{
+  margin-top: 7rem; 
+  @media (max-height:670px){margin-top: 2rem;}
+}
 
 .code{font-size: 17px;
     .var {color: #4D5BCE;}
