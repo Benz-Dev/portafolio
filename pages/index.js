@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import snipet from '../public/code-snippet.png'
@@ -9,11 +8,6 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Mi Portafolio</title>
-        <meta name="description" content="Benz Developer" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <main className={styles.main}>
         <div className={styles.container}>
             <div className={styles.information}>
