@@ -1,5 +1,5 @@
 export default function about(){
     return (
-        <h1>hola</h1>
+        <h1>En desarrollo</h1>
     )
 }

@@ -53,6 +53,39 @@
                         &::before{content: '// ';}
                     }
                 }
+                .card{
+                    overflow: hidden;
+                    width: 370px;
+                    height: 314px;
+                    max-width: 370px;
+                    max-height: 314px;
+                    border-radius: 15px;
+                    border: 1px solid #1E2D3D;
+                    background-color: #011221;
+                    .image{
+                        img{background-size: cover;height: 140px;width: 370px;}
+                    }
+                    .content{
+                        color: #607B96;
+                        padding: 15px 0;
+                        max-width: 80%;
+                        margin: 0 auto;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        height:calc(314px - 140px) ;
+                        .button {
+                            background-color: #1C2B3A;
+                            color: #FFFFFF;
+                            border: none;
+                            padding: .8rem 1rem;
+                            border-radius: 8px;
+                            text-align: start;
+                            font-size: 15px;
+                            font-family: 'Fira Code', monospace;
+                        }
+                    }
+                }
             }
         }
     }

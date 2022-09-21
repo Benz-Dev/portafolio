@@ -23,7 +23,7 @@ export default function Home() {
                 }}/>
               </div>
               <div className={styles.github_info}>
-                  <div className={styles.comment}>complete the game to continue</div>
+                  <div className={styles.comment}>complete the game to continue (PRÓXIMAMENTE)</div>
                   <div className={styles.comment}>you can also see it my Github page</div>
 
                   <code className={styles.code}><span className={styles.var}>const</span> <span className={styles.content_var}>githubLink</span> = <Link href='https://www.github.com/Benz-Dev'>&quot;https://github.com/Benz-Dev&quot;</Link></code>
